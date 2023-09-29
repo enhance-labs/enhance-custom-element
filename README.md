@@ -3,7 +3,7 @@ Enhance Custom Element base class.
 
 ## Install
 
-`npm i @enhance/custom-element`
+`npm i @enhance-labs/custom-element`
 
 ## Usage
 
