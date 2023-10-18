@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/enhance-dev/enhance-custom-element#readme",
   "dependencies": {
-    "@enhance-labs/base-element": "^1.2.1-beta.0",
+    "@enhance-labs/base-element": "^1.2.1-beta.1",
     "@enhance-labs/custom-element-mixin": "^1.1.1-beta.7",
     "@enhance/template-mixin": "^1.0.0"
   },
