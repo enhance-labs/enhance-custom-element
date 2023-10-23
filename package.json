@@ -4,8 +4,10 @@
   "description": "Enhance Custom Element base class",
   "type": "module",
   "main": "index.mjs",
+  "module": "/dist/index.js",
   "scripts": {
     "build": "node ./scripts/build.mjs",
+    "dist": "rollup --config ./rollup.config.js",
     "test": "run-s test:setup test:ci",
     "test:setup": "npx playwright install-deps",
     "test:ci": "web-test-runner \"test/*-test.html\" --node-resolve --playwright --browsers chromium firefox webkit",
